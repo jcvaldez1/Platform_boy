@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Player_Movement.cs">
+    <Files>
+      <File FileName="Assets\Selected.cs" Line="1" Column="1" />
+      <File FileName="Assets\Movement.cs" Line="1" Column="1" />
+      <File FileName="Assets\ShapeShift.cs" Line="1" Column="1" />
+      <File FileName="Assets\Rotation_Checker.cs" Line="1" Column="1" />
+      <File FileName="Assets\Player_Movement.cs" Line="56" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
