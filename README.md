@@ -1,7 +1,7 @@
 # Platform_boy
 
 Git protocols we would be following that i stole from our CS145 capstone repo readme :
- # CS 145 (first take) Project Group 17
+ # ~~CS 145 (first take) Project Group 17~~
 
 Please follow these guides for working with other people using git:
 
@@ -17,7 +17,7 @@ The short summary of the workflow is:
 4. instead, push `myfeature` to the remote repository
 5. then open a pull request on github to request merging `myfeature` onto `dev` 
 6. wait for someone to approve
-7. repeat 1 - 6 until we pass cs145
+7. repeat 1 - 6 until we ~~pass cs145~~ make a shippable product
 
 Please ask me for clarifications regarding our workflow. The whole purpose of 
 this very easy process is to make sure that `dev` is clean and easy to follow.
