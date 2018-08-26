@@ -41,7 +41,7 @@ public class Player_Movement : MonoBehaviour {
 		COLLIDER_LEFT_TOP = collider_left_top.GetComponent<Rotation_Checker> ();
 		COLLIDER_LEFT_BOTTOM = collider_left_bottom.GetComponent<Rotation_Checker> ();
 
-		jumpSpeed = 4.2f;
+		jumpSpeed = 5.0f;
 	}
 	
 	void Update () {
