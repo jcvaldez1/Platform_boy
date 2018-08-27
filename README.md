@@ -17,7 +17,7 @@ The short summary of the workflow is:
 4. instead, push `myfeature` to the remote repository
 5. then open a pull request on github to request merging `myfeature` onto `dev` 
 6. wait for someone to approve
-7. repeat 1 - 6 until we ~~pass cs145~~ make a shippable product
+7. repeat 1 - 6 until we ~~pass cs145~~ deliver a shippable product.
 
 Please ask me for clarifications regarding our workflow. The whole purpose of 
 this very easy process is to make sure that `dev` is clean and easy to follow.
