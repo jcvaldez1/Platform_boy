@@ -11,10 +11,15 @@ public class Rotation_Checker : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D other){
-		IS_COLLIDED = true;
+		if (!other.gameObject.CompareTag ("Sensor")) {
+			IS_COLLIDED = true;
+		}
+
 	}
 
 	void OnTriggerExit2D(Collider2D other){
-		IS_COLLIDED = false;
+		if (!other.gameObject.CompareTag ("Sensor")) {
+			IS_COLLIDED = false;
+		}
 	}
 }
