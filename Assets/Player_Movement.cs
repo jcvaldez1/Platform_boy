@@ -11,6 +11,7 @@ public class Player_Movement : MonoBehaviour {
 
 
 	// COLLIDERS ARE HERE // WOULD BE NICE TO FIND A WAY TO COLLATE THIS
+	private GameObject SPRITE_BOY;
 	private GameObject collider_right_top;
 	private GameObject collider_right_bottom;
 	private GameObject collider_left_top;
@@ -41,6 +42,8 @@ public class Player_Movement : MonoBehaviour {
 		COLLIDER_LEFT_TOP = collider_left_top.GetComponent<Rotation_Checker> ();
 		COLLIDER_LEFT_BOTTOM = collider_left_bottom.GetComponent<Rotation_Checker> ();
 
+		SPRITE_BOY = GameObject.Find ("Space_boi_sprite");
+
 		jumpSpeed = 5.0f;
 	}
 	
@@ -50,6 +53,12 @@ public class Player_Movement : MonoBehaviour {
 			transform.Translate (Vector3.up * jumpSpeed * Time.deltaTime, Space.World);
 		} else if (COLLIDER_LEFT_BOTTOM.IS_COLLIDED && !COLLIDER_LEFT_TOP.IS_COLLIDED) {
 			transform.Translate (Vector3.up * jumpSpeed * Time.deltaTime, Space.World);
+		} else if (COLLIDER_RIGHT_BOTTOM.IS_COLLIDED && COLLIDER_RIGHT_TOP.IS_COLLIDED) {
+			direction *= -1.0f;
+			SPRITE_BOY.transform.Rotate (0, 180, 0, Space.Self);
+		} else if (COLLIDER_LEFT_BOTTOM.IS_COLLIDED && COLLIDER_LEFT_TOP.IS_COLLIDED) {
+			direction *= -1.0f;
+			SPRITE_BOY.transform.Rotate (0, 180, 0, Space.Self);
 		} 
 		transform.Translate(new Vector2( 2.0f , 0.0f ) * Time.deltaTime * direction, Space.Self);
 
