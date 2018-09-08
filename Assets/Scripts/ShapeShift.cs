@@ -24,7 +24,7 @@ public class ShapeShift : MonoBehaviour {
 		COLLIDER_1 = collider_1.GetComponent<Rotation_Checker> ();
 	}
 
-	void Update () {
+	void FixedUpdate () {
 		
 		if (Input.GetKeyDown ("space") && !COLLIDER_0.IS_COLLIDED  && !COLLIDER_1.IS_COLLIDED   ) {
 			Invoke("Flippo" , waittime);
