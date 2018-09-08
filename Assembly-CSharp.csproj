@@ -53,16 +53,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Constants.cs" />
-     <Compile Include="Assets\Movement.cs" />
-     <Compile Include="Assets\newasd.cs" />
-     <Compile Include="Assets\newsc.cs" />
-     <Compile Include="Assets\Player_Movement.cs" />
-     <Compile Include="Assets\Rotation_Checker.cs" />
-     <Compile Include="Assets\Select.cs" />
-     <Compile Include="Assets\Selected.cs" />
-     <Compile Include="Assets\ShapeShift.cs" />
-     <Compile Include="Assets\tester.cs" />
+     <Compile Include="Assets\Scripts\Constants.cs" />
+     <Compile Include="Assets\Scripts\Movement.cs" />
+     <Compile Include="Assets\Scripts\Player_Movement.cs" />
+     <Compile Include="Assets\Scripts\Rotation_Checker.cs" />
+     <Compile Include="Assets\Scripts\Select.cs" />
+     <Compile Include="Assets\Scripts\Selected.cs" />
+     <Compile Include="Assets\Scripts\ShapeShift.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/Wang/Desktop/geymdev/Platform_boy/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
