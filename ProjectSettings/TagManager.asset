@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Straight_Boy
+  - Sensor
   layers:
   - Default
   - TransparentFX
@@ -14,7 +15,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Background
   - 
   - 
   - 
@@ -41,4 +42,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 43940603
+    locked: 0
+  - name: Foreground
+    uniqueID: 1773959339
     locked: 0
